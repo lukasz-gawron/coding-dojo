@@ -7,7 +7,11 @@ import spock.lang.Specification
  * @author Lukasz Gawron / Software Engineer / testing but not TDD'ing yet
  *
  * Agenda:
- *  - Are you using TDD?
+ *  - Introduction:
+ *      - Who you are?
+ *      - Why you come to this workhop?
+ *      - What do you expect from this excercise?
+ *  - How many of you use TDD?
  *  - What TDD is?
  *  - Why do we want to do TDD?
  *    - safety
