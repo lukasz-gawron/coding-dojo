@@ -20,18 +20,20 @@ import spock.lang.Specification
  *    - loosly coupled desing
  *
  *  - 7 Steps of TDD (Red Green Refactor)
- *      1. create a list of tests
+ *      1. Create initial list of tests
  *      2. Add new test FAST (baby steps)
  *      3. Run test suite, to see it failed
  *      4. Make changes to tested code
  *      5. Run again test suite, to see that ALL TEST PASSED
  *      6. REFACTOR tested code to eliminate duplication
- *      7. if you discover new test case, add it to TODO list, don't implement it straight away
+ *      7. If you discover new test case, add it to TODO list, don't implement it straight away
  *
  *  - TDD Strategies:
  *      -   fraud (oszustwo) - implement based on hardcoded constants and return expected result, after that generalise and replace constant with variables, in case of service, database, something we have contract alrady, we can just put inside test test data, and we pretend we have it from db
  *      -   obviousness (oczywistosc) - create real implementation, which seems to be for sure correct
- *      -   trinagulation - generalise code based on 2 or more examples (tests)
+ *      -   triangulation - generalise code based on 2 or more examples (tests)
+ *
+
  *
  *  - Priority Premise
  *    ({}–>nil) no code at all->code that employs nil
